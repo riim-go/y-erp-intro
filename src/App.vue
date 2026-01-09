@@ -1,7 +1,8 @@
 <template>
   <div class="main-container">
     <div :class="mainClass">
-      <n-carousel draggable show-arrow autoplay>
+      <!-- draggable -->
+      <n-carousel show-arrow autoplay>
         <img class="carousel-img" :src="img1" />
         <img class="carousel-img" :src="img2" />
 
