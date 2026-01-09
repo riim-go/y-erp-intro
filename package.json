@@ -1,7 +1,7 @@
 {
-  "name": "y-erp-finance",
+  "name": "y-erp-intro",
   "version": "0.0.1",
-  "productName": "Y-ERP-Finance",
+  "productName": "Y-ERP-Intro",
   "author": "DareInc",
   "type": "module",
   "private": true,
