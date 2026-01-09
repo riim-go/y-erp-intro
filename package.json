@@ -1,0 +1,33 @@
+{
+  "name": "y-erp-finance",
+  "version": "0.0.1",
+  "productName": "Y-ERP-Finance",
+  "author": "DareInc",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "set SASS_SILENCE_DEPRECATION_WARNINGS=1 && vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "pnpm run build"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "vue"
+      ]
+    }
+  },
+  "dependencies": {
+    "@vicons/ionicons5": "^0.13.0",
+    "naive-ui": "^2.42.0",
+    "vue": "^3.5.17"
+  },
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.4",
+    "@vitejs/plugin-vue": "^6.0.0",
+    "@vue/test-utils": "^2.4.6",
+    "sass-embedded": "^1.89.2",
+    "vite": "^7.0.0"
+  }
+}
